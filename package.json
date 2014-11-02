@@ -1,0 +1,14 @@
+{
+  "name": "undecided",
+  "dependencies": {
+    "express": "latest",
+    "express-session": "latest",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-facebook": "latest",
+    "bcrypt-nodejs": "latest",
+    "cookie-parser": "latest",
+    "body-parser": "latest",
+    "morgan": "latest"
+  }
+}

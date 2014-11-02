@@ -1,0 +1,7 @@
+{
+  "name": "undecided",
+  "dependencies": {
+    "cookie-parser": "latest",
+    "body-parser": "latest"
+  }
+}

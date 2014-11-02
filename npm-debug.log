@@ -1,0 +1,651 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json undecided@ No description
+5 warn package.json undecided@ No repository field.
+6 warn package.json undecided@ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/yjian004/source/js/undecided',
+8 verbose install   [ 'express',
+8 verbose install     'express-session',
+8 verbose install     'mongoose',
+8 verbose install     'passport',
+8 verbose install     'passport-facebook',
+8 verbose install     'bcrypt-nodejs',
+8 verbose install     'cookie-parser',
+8 verbose install     'body-parser',
+8 verbose install     'morgan' ] ]
+9 info preinstall undecided@
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'express-session@latest', null ]
+12 verbose cache add name=undefined spec="express-session@latest" args=["express-session@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express-session@latest',
+13 verbose parsed url   path: 'express-session@latest',
+13 verbose parsed url   href: 'express-session@latest' }
+14 verbose cache add [ 'mongoose@latest', null ]
+15 verbose cache add name=undefined spec="mongoose@latest" args=["mongoose@latest",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'mongoose@latest',
+16 verbose parsed url   path: 'mongoose@latest',
+16 verbose parsed url   href: 'mongoose@latest' }
+17 verbose cache add [ 'passport@latest', null ]
+18 verbose cache add name=undefined spec="passport@latest" args=["passport@latest",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'passport@latest',
+19 verbose parsed url   path: 'passport@latest',
+19 verbose parsed url   href: 'passport@latest' }
+20 verbose cache add name="express-session" spec="latest" args=["express-session","latest"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'latest',
+21 verbose parsed url   path: 'latest',
+21 verbose parsed url   href: 'latest' }
+22 verbose addNamed [ 'express-session', 'latest' ]
+23 verbose addNamed [ null, null ]
+24 verbose cache add name="mongoose" spec="latest" args=["mongoose","latest"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'latest',
+25 verbose parsed url   path: 'latest',
+25 verbose parsed url   href: 'latest' }
+26 verbose addNamed [ 'mongoose', 'latest' ]
+27 verbose addNamed [ null, null ]
+28 verbose cache add [ 'passport-facebook@latest', null ]
+29 verbose cache add name=undefined spec="passport-facebook@latest" args=["passport-facebook@latest",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'passport-facebook@latest',
+30 verbose parsed url   path: 'passport-facebook@latest',
+30 verbose parsed url   href: 'passport-facebook@latest' }
+31 verbose cache add name="passport" spec="latest" args=["passport","latest"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'latest',
+32 verbose parsed url   path: 'latest',
+32 verbose parsed url   href: 'latest' }
+33 verbose addNamed [ 'passport', 'latest' ]
+34 verbose addNamed [ null, null ]
+35 silly lockFile fa47ee87-express-session-latest express-session@latest
+36 verbose lock express-session@latest /Users/yjian004/.npm/fa47ee87-express-session-latest.lock
+37 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+38 verbose lock mongoose@latest /Users/yjian004/.npm/73e949f4-mongoose-latest.lock
+39 silly lockFile 771f2547-passport-latest passport@latest
+40 verbose lock passport@latest /Users/yjian004/.npm/771f2547-passport-latest.lock
+41 verbose cache add [ 'bcrypt-nodejs@latest', null ]
+42 verbose cache add name=undefined spec="bcrypt-nodejs@latest" args=["bcrypt-nodejs@latest",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'bcrypt-nodejs@latest',
+43 verbose parsed url   path: 'bcrypt-nodejs@latest',
+43 verbose parsed url   href: 'bcrypt-nodejs@latest' }
+44 verbose cache add [ 'cookie-parser@latest', null ]
+45 verbose cache add name=undefined spec="cookie-parser@latest" args=["cookie-parser@latest",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'cookie-parser@latest',
+46 verbose parsed url   path: 'cookie-parser@latest',
+46 verbose parsed url   href: 'cookie-parser@latest' }
+47 verbose cache add name="passport-facebook" spec="latest" args=["passport-facebook","latest"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'latest',
+48 verbose parsed url   path: 'latest',
+48 verbose parsed url   href: 'latest' }
+49 verbose addNamed [ 'passport-facebook', 'latest' ]
+50 verbose addNamed [ null, null ]
+51 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+52 verbose lock passport-facebook@latest /Users/yjian004/.npm/82ca5952-passport-facebook-latest.lock
+53 verbose cache add name="bcrypt-nodejs" spec="latest" args=["bcrypt-nodejs","latest"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: 'latest',
+54 verbose parsed url   path: 'latest',
+54 verbose parsed url   href: 'latest' }
+55 verbose addNamed [ 'bcrypt-nodejs', 'latest' ]
+56 verbose addNamed [ null, null ]
+57 silly lockFile 8a2c73f6-bcrypt-nodejs-latest bcrypt-nodejs@latest
+58 verbose lock bcrypt-nodejs@latest /Users/yjian004/.npm/8a2c73f6-bcrypt-nodejs-latest.lock
+59 verbose cache add name="cookie-parser" spec="latest" args=["cookie-parser","latest"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'latest',
+60 verbose parsed url   path: 'latest',
+60 verbose parsed url   href: 'latest' }
+61 verbose addNamed [ 'cookie-parser', 'latest' ]
+62 verbose addNamed [ null, null ]
+63 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+64 verbose lock cookie-parser@latest /Users/yjian004/.npm/a995bebb-cookie-parser-latest.lock
+65 verbose cache add [ 'body-parser@latest', null ]
+66 verbose cache add name=undefined spec="body-parser@latest" args=["body-parser@latest",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'body-parser@latest',
+67 verbose parsed url   path: 'body-parser@latest',
+67 verbose parsed url   href: 'body-parser@latest' }
+68 verbose cache add [ 'morgan@latest', null ]
+69 verbose cache add name=undefined spec="morgan@latest" args=["morgan@latest",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'morgan@latest',
+70 verbose parsed url   path: 'morgan@latest',
+70 verbose parsed url   href: 'morgan@latest' }
+71 verbose cache add [ 'express@latest', null ]
+72 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'express@latest',
+73 verbose parsed url   path: 'express@latest',
+73 verbose parsed url   href: 'express@latest' }
+74 info addNameTag [ 'express-session', 'latest' ]
+75 info addNameTag [ 'mongoose', 'latest' ]
+76 info addNameTag [ 'passport', 'latest' ]
+77 verbose cache add name="body-parser" spec="latest" args=["body-parser","latest"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'latest',
+78 verbose parsed url   path: 'latest',
+78 verbose parsed url   href: 'latest' }
+79 verbose addNamed [ 'body-parser', 'latest' ]
+80 verbose addNamed [ null, null ]
+81 silly lockFile 88319797-body-parser-latest body-parser@latest
+82 verbose lock body-parser@latest /Users/yjian004/.npm/88319797-body-parser-latest.lock
+83 verbose cache add name="morgan" spec="latest" args=["morgan","latest"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'latest',
+84 verbose parsed url   path: 'latest',
+84 verbose parsed url   href: 'latest' }
+85 verbose addNamed [ 'morgan', 'latest' ]
+86 verbose addNamed [ null, null ]
+87 silly lockFile d2a09fff-morgan-latest morgan@latest
+88 verbose lock morgan@latest /Users/yjian004/.npm/d2a09fff-morgan-latest.lock
+89 verbose cache add name="express" spec="latest" args=["express","latest"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'latest',
+90 verbose parsed url   path: 'latest',
+90 verbose parsed url   href: 'latest' }
+91 verbose addNamed [ 'express', 'latest' ]
+92 verbose addNamed [ null, null ]
+93 silly lockFile c30a01ab-express-latest express@latest
+94 verbose lock express@latest /Users/yjian004/.npm/c30a01ab-express-latest.lock
+95 info addNameTag [ 'passport-facebook', 'latest' ]
+96 info addNameTag [ 'bcrypt-nodejs', 'latest' ]
+97 info addNameTag [ 'cookie-parser', 'latest' ]
+98 info addNameTag [ 'body-parser', 'latest' ]
+99 info addNameTag [ 'morgan', 'latest' ]
+100 info addNameTag [ 'express', 'latest' ]
+101 verbose request where is /express-session
+102 verbose request registry https://registry.npmjs.org/
+103 verbose request id 9cc9ae7aa390bf41
+104 verbose url raw /express-session
+105 verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+106 verbose url resolved https://registry.npmjs.org/express-session
+107 verbose request where is https://registry.npmjs.org/express-session
+108 info trying registry request attempt 1 at 21:42:28
+109 verbose etag "5XY51F8JB3BYHRZ4TZCWJO11C"
+110 http GET https://registry.npmjs.org/express-session
+111 verbose request where is /passport
+112 verbose request registry https://registry.npmjs.org/
+113 verbose url raw /passport
+114 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+115 verbose url resolved https://registry.npmjs.org/passport
+116 verbose request where is https://registry.npmjs.org/passport
+117 info trying registry request attempt 1 at 21:42:28
+118 verbose etag "7O1S2W8B12RCM153Y5VIH43IX"
+119 http GET https://registry.npmjs.org/passport
+120 verbose request where is /passport-facebook
+121 verbose request registry https://registry.npmjs.org/
+122 verbose url raw /passport-facebook
+123 verbose url resolving [ 'https://registry.npmjs.org/', './passport-facebook' ]
+124 verbose url resolved https://registry.npmjs.org/passport-facebook
+125 verbose request where is https://registry.npmjs.org/passport-facebook
+126 info trying registry request attempt 1 at 21:42:28
+127 verbose etag "3X8OKKBLSLK9O9GPF6FZLB1XW"
+128 http GET https://registry.npmjs.org/passport-facebook
+129 verbose request where is /cookie-parser
+130 verbose request registry https://registry.npmjs.org/
+131 verbose url raw /cookie-parser
+132 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+133 verbose url resolved https://registry.npmjs.org/cookie-parser
+134 verbose request where is https://registry.npmjs.org/cookie-parser
+135 info trying registry request attempt 1 at 21:42:28
+136 verbose etag "D2I21Z55J0M83YHA636O1DW9K"
+137 http GET https://registry.npmjs.org/cookie-parser
+138 verbose request where is /bcrypt-nodejs
+139 verbose request registry https://registry.npmjs.org/
+140 verbose url raw /bcrypt-nodejs
+141 verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt-nodejs' ]
+142 verbose url resolved https://registry.npmjs.org/bcrypt-nodejs
+143 verbose request where is https://registry.npmjs.org/bcrypt-nodejs
+144 info trying registry request attempt 1 at 21:42:28
+145 verbose etag "70C6TM6EJJHEK9I9X7XL97I8H"
+146 http GET https://registry.npmjs.org/bcrypt-nodejs
+147 verbose request where is /mongoose
+148 verbose request registry https://registry.npmjs.org/
+149 verbose url raw /mongoose
+150 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+151 verbose url resolved https://registry.npmjs.org/mongoose
+152 verbose request where is https://registry.npmjs.org/mongoose
+153 info trying registry request attempt 1 at 21:42:28
+154 verbose etag "DL1ML8BLB9QAXVN1Q1QMYRF0A"
+155 http GET https://registry.npmjs.org/mongoose
+156 verbose request where is /body-parser
+157 verbose request registry https://registry.npmjs.org/
+158 verbose url raw /body-parser
+159 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+160 verbose url resolved https://registry.npmjs.org/body-parser
+161 verbose request where is https://registry.npmjs.org/body-parser
+162 info trying registry request attempt 1 at 21:42:28
+163 verbose etag "31NOWALYE5KS8CUXXM9FZZM0H"
+164 http GET https://registry.npmjs.org/body-parser
+165 verbose request where is /morgan
+166 verbose request registry https://registry.npmjs.org/
+167 verbose url raw /morgan
+168 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+169 verbose url resolved https://registry.npmjs.org/morgan
+170 verbose request where is https://registry.npmjs.org/morgan
+171 info trying registry request attempt 1 at 21:42:28
+172 verbose etag "708ZQTN8ZP2GVR4WWCO6UK2FY"
+173 http GET https://registry.npmjs.org/morgan
+174 verbose request where is /express
+175 verbose request registry https://registry.npmjs.org/
+176 verbose url raw /express
+177 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+178 verbose url resolved https://registry.npmjs.org/express
+179 verbose request where is https://registry.npmjs.org/express
+180 info trying registry request attempt 1 at 21:42:28
+181 verbose etag "DOUSH91BUGWJ540XUW6LDMMPW"
+182 http GET https://registry.npmjs.org/express
+183 http 304 https://registry.npmjs.org/passport
+184 silly registry.get cb [ 304,
+184 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+184 silly registry.get     server: 'Apache',
+184 silly registry.get     via: '1.1 varnish',
+184 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+184 silly registry.get     'cache-control': 'max-age=60',
+184 silly registry.get     etag: '"7O1S2W8B12RCM153Y5VIH43IX"',
+184 silly registry.get     age: '24',
+184 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+184 silly registry.get     'x-cache': 'HIT',
+184 silly registry.get     'x-cache-hits': '1',
+184 silly registry.get     'x-timer': 'S1414892549.174527,VS0,VE0',
+184 silly registry.get     vary: 'Accept',
+184 silly registry.get     'content-length': '0',
+184 silly registry.get     'keep-alive': 'timeout=10, max=50',
+184 silly registry.get     connection: 'Keep-Alive' } ]
+185 verbose etag https://registry.npmjs.org/passport from cache
+186 http 304 https://registry.npmjs.org/express-session
+187 silly registry.get cb [ 304,
+187 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+187 silly registry.get     server: 'Apache',
+187 silly registry.get     via: '1.1 varnish',
+187 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:05 GMT',
+187 silly registry.get     'cache-control': 'max-age=60',
+187 silly registry.get     etag: '"5XY51F8JB3BYHRZ4TZCWJO11C"',
+187 silly registry.get     age: '59',
+187 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+187 silly registry.get     'x-cache': 'HIT',
+187 silly registry.get     'x-cache-hits': '2',
+187 silly registry.get     'x-timer': 'S1414892549.179071,VS0,VE0',
+187 silly registry.get     vary: 'Accept',
+187 silly registry.get     'content-length': '0',
+187 silly registry.get     'keep-alive': 'timeout=10, max=50',
+187 silly registry.get     connection: 'Keep-Alive' } ]
+188 verbose etag https://registry.npmjs.org/express-session from cache
+189 http 304 https://registry.npmjs.org/cookie-parser
+190 silly registry.get cb [ 304,
+190 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+190 silly registry.get     server: 'Apache',
+190 silly registry.get     via: '1.1 varnish',
+190 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+190 silly registry.get     'cache-control': 'max-age=60',
+190 silly registry.get     etag: '"D2I21Z55J0M83YHA636O1DW9K"',
+190 silly registry.get     age: '24',
+190 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+190 silly registry.get     'x-cache': 'HIT',
+190 silly registry.get     'x-cache-hits': '1',
+190 silly registry.get     'x-timer': 'S1414892549.179388,VS0,VE0',
+190 silly registry.get     vary: 'Accept',
+190 silly registry.get     'content-length': '0',
+190 silly registry.get     'keep-alive': 'timeout=10, max=50',
+190 silly registry.get     connection: 'Keep-Alive' } ]
+191 verbose etag https://registry.npmjs.org/cookie-parser from cache
+192 verbose addNamed [ 'passport', '0.2.1' ]
+193 verbose addNamed [ '0.2.1', '0.2.1' ]
+194 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+195 verbose lock passport@0.2.1 /Users/yjian004/.npm/b563cf22-passport-0-2-1.lock
+196 verbose addNamed [ 'cookie-parser', '1.3.3' ]
+197 verbose addNamed [ '1.3.3', '1.3.3' ]
+198 silly lockFile 68450bd4-cookie-parser-1-3-3 cookie-parser@1.3.3
+199 verbose lock cookie-parser@1.3.3 /Users/yjian004/.npm/68450bd4-cookie-parser-1-3-3.lock
+200 verbose addNamed [ 'express-session', '1.9.1' ]
+201 verbose addNamed [ '1.9.1', '1.9.1' ]
+202 silly lockFile c0a3989b-express-session-1-9-1 express-session@1.9.1
+203 verbose lock express-session@1.9.1 /Users/yjian004/.npm/c0a3989b-express-session-1-9-1.lock
+204 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+205 silly lockFile b563cf22-passport-0-2-1 passport@0.2.1
+206 http 304 https://registry.npmjs.org/passport-facebook
+207 silly registry.get cb [ 304,
+207 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+207 silly registry.get     server: 'Apache',
+207 silly registry.get     via: '1.1 varnish',
+207 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+207 silly registry.get     'cache-control': 'max-age=60',
+207 silly registry.get     etag: '"3X8OKKBLSLK9O9GPF6FZLB1XW"',
+207 silly registry.get     age: '24',
+207 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+207 silly registry.get     'x-cache': 'HIT',
+207 silly registry.get     'x-cache-hits': '1',
+207 silly registry.get     'x-timer': 'S1414892549.191054,VS0,VE0',
+207 silly registry.get     vary: 'Accept',
+207 silly registry.get     'content-length': '0',
+207 silly registry.get     'keep-alive': 'timeout=10, max=50',
+207 silly registry.get     connection: 'Keep-Alive' } ]
+208 verbose etag https://registry.npmjs.org/passport-facebook from cache
+209 silly lockFile 68450bd4-cookie-parser-1-3-3 cookie-parser@1.3.3
+210 silly lockFile 68450bd4-cookie-parser-1-3-3 cookie-parser@1.3.3
+211 silly lockFile 771f2547-passport-latest passport@latest
+212 silly lockFile 771f2547-passport-latest passport@latest
+213 silly lockFile c0a3989b-express-session-1-9-1 express-session@1.9.1
+214 silly lockFile c0a3989b-express-session-1-9-1 express-session@1.9.1
+215 http 304 https://registry.npmjs.org/bcrypt-nodejs
+216 silly registry.get cb [ 304,
+216 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+216 silly registry.get     server: 'Apache',
+216 silly registry.get     via: '1.1 varnish',
+216 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+216 silly registry.get     'cache-control': 'max-age=60',
+216 silly registry.get     etag: '"70C6TM6EJJHEK9I9X7XL97I8H"',
+216 silly registry.get     age: '24',
+216 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+216 silly registry.get     'x-cache': 'HIT',
+216 silly registry.get     'x-cache-hits': '1',
+216 silly registry.get     'x-timer': 'S1414892549.198364,VS0,VE0',
+216 silly registry.get     vary: 'Accept',
+216 silly registry.get     'content-length': '0',
+216 silly registry.get     'keep-alive': 'timeout=10, max=50',
+216 silly registry.get     connection: 'Keep-Alive' } ]
+217 verbose etag https://registry.npmjs.org/bcrypt-nodejs from cache
+218 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+219 silly lockFile a995bebb-cookie-parser-latest cookie-parser@latest
+220 silly lockFile fa47ee87-express-session-latest express-session@latest
+221 silly lockFile fa47ee87-express-session-latest express-session@latest
+222 verbose addNamed [ 'passport-facebook', '1.0.3' ]
+223 verbose addNamed [ '1.0.3', '1.0.3' ]
+224 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+225 verbose lock passport-facebook@1.0.3 /Users/yjian004/.npm/3e2a96bb-passport-facebook-1-0-3.lock
+226 verbose addNamed [ 'bcrypt-nodejs', '0.0.3' ]
+227 verbose addNamed [ '0.0.3', '0.0.3' ]
+228 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+229 verbose lock bcrypt-nodejs@0.0.3 /Users/yjian004/.npm/30db234c-bcrypt-nodejs-0-0-3.lock
+230 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+231 silly lockFile 3e2a96bb-passport-facebook-1-0-3 passport-facebook@1.0.3
+232 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+233 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+234 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+235 silly lockFile 82ca5952-passport-facebook-latest passport-facebook@latest
+236 silly lockFile 8a2c73f6-bcrypt-nodejs-latest bcrypt-nodejs@latest
+237 silly lockFile 8a2c73f6-bcrypt-nodejs-latest bcrypt-nodejs@latest
+238 http 304 https://registry.npmjs.org/morgan
+239 silly registry.get cb [ 304,
+239 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+239 silly registry.get     server: 'Apache',
+239 silly registry.get     via: '1.1 varnish',
+239 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:41:47 GMT',
+239 silly registry.get     'cache-control': 'max-age=60',
+239 silly registry.get     etag: '"708ZQTN8ZP2GVR4WWCO6UK2FY"',
+239 silly registry.get     age: '42',
+239 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+239 silly registry.get     'x-cache': 'HIT',
+239 silly registry.get     'x-cache-hits': '2',
+239 silly registry.get     'x-timer': 'S1414892549.233536,VS0,VE0',
+239 silly registry.get     vary: 'Accept',
+239 silly registry.get     'content-length': '0',
+239 silly registry.get     'keep-alive': 'timeout=10, max=49',
+239 silly registry.get     connection: 'Keep-Alive' } ]
+240 verbose etag https://registry.npmjs.org/morgan from cache
+241 http 304 https://registry.npmjs.org/body-parser
+242 silly registry.get cb [ 304,
+242 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+242 silly registry.get     server: 'Apache',
+242 silly registry.get     via: '1.1 varnish',
+242 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+242 silly registry.get     'cache-control': 'max-age=60',
+242 silly registry.get     etag: '"31NOWALYE5KS8CUXXM9FZZM0H"',
+242 silly registry.get     age: '59',
+242 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+242 silly registry.get     'x-cache': 'HIT',
+242 silly registry.get     'x-cache-hits': '1',
+242 silly registry.get     'x-timer': 'S1414892549.233350,VS0,VE0',
+242 silly registry.get     vary: 'Accept',
+242 silly registry.get     'content-length': '0',
+242 silly registry.get     'keep-alive': 'timeout=10, max=49',
+242 silly registry.get     connection: 'Keep-Alive' } ]
+243 verbose etag https://registry.npmjs.org/body-parser from cache
+244 verbose addNamed [ 'morgan', '1.4.1' ]
+245 verbose addNamed [ '1.4.1', '1.4.1' ]
+246 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+247 verbose lock morgan@1.4.1 /Users/yjian004/.npm/a46cba56-morgan-1-4-1.lock
+248 verbose addNamed [ 'body-parser', '1.9.2' ]
+249 verbose addNamed [ '1.9.2', '1.9.2' ]
+250 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+251 verbose lock body-parser@1.9.2 /Users/yjian004/.npm/4669738b-body-parser-1-9-2.lock
+252 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+253 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz /Users/yjian004/.npm/a9656366-ody-parser-body-parser-1-9-2-tgz.lock
+254 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+255 silly lockFile a46cba56-morgan-1-4-1 morgan@1.4.1
+256 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz',
+256 verbose addRemoteTarball   '07f52cf104939118bedcba689002017271ef3c0e' ]
+257 silly lockFile d2a09fff-morgan-latest morgan@latest
+258 silly lockFile d2a09fff-morgan-latest morgan@latest
+259 info retry fetch attempt 1 at 21:42:29
+260 verbose fetch to= /var/folders/vj/dq_yc5c97vq627h1dnk0xs900000gr/T/npm-35475-CXkz2EUH/registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+261 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+262 http 304 https://registry.npmjs.org/express
+263 silly registry.get cb [ 304,
+263 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+263 silly registry.get     server: 'Apache',
+263 silly registry.get     via: '1.1 varnish',
+263 silly registry.get     'last-modified': 'Sun, 02 Nov 2014 01:42:29 GMT',
+263 silly registry.get     'cache-control': 'max-age=60',
+263 silly registry.get     etag: '"DOUSH91BUGWJ540XUW6LDMMPW"',
+263 silly registry.get     age: '24',
+263 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+263 silly registry.get     'x-cache': 'HIT',
+263 silly registry.get     'x-cache-hits': '1',
+263 silly registry.get     'x-timer': 'S1414892549.271392,VS0,VE2',
+263 silly registry.get     vary: 'Accept',
+263 silly registry.get     'content-length': '0',
+263 silly registry.get     'keep-alive': 'timeout=10, max=49',
+263 silly registry.get     connection: 'Keep-Alive' } ]
+264 verbose etag https://registry.npmjs.org/express from cache
+265 verbose addNamed [ 'express', '4.10.1' ]
+266 verbose addNamed [ '4.10.1', '4.10.1' ]
+267 silly lockFile 513c21c6-express-4-10-1 express@4.10.1
+268 verbose lock express@4.10.1 /Users/yjian004/.npm/513c21c6-express-4-10-1.lock
+269 silly lockFile 513c21c6-express-4-10-1 express@4.10.1
+270 silly lockFile 513c21c6-express-4-10-1 express@4.10.1
+271 silly lockFile c30a01ab-express-latest express@latest
+272 silly lockFile c30a01ab-express-latest express@latest
+273 http 200 https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+274 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+275 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+276 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+277 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+278 silly lockFile 88319797-body-parser-latest body-parser@latest
+279 silly lockFile 88319797-body-parser-latest body-parser@latest
+280 http 200 https://registry.npmjs.org/mongoose
+281 silly registry.get cb [ 200,
+281 silly registry.get   { date: 'Sun, 02 Nov 2014 01:42:29 GMT',
+281 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+281 silly registry.get     etag: '"4NI9W5XYPIMVL4M3AVTF6GMN7"',
+281 silly registry.get     'content-type': 'application/json',
+281 silly registry.get     'cache-control': 'max-age=60',
+281 silly registry.get     'content-length': '275026',
+281 silly registry.get     'accept-ranges': 'bytes',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     age: '0',
+281 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+281 silly registry.get     'x-cache': 'HIT',
+281 silly registry.get     'x-cache-hits': '1',
+281 silly registry.get     'x-timer': 'S1414892549.228880,VS0,VE78',
+281 silly registry.get     vary: 'Accept',
+281 silly registry.get     'keep-alive': 'timeout=10, max=49',
+281 silly registry.get     connection: 'Keep-Alive' } ]
+282 verbose addNamed [ 'mongoose', '3.8.18' ]
+283 verbose addNamed [ '3.8.18', '3.8.18' ]
+284 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+285 verbose lock mongoose@3.8.18 /Users/yjian004/.npm/bce763e9-mongoose-3-8-18.lock
+286 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+287 silly lockFile bce763e9-mongoose-3-8-18 mongoose@3.8.18
+288 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+289 silly lockFile 73e949f4-mongoose-latest mongoose@latest
+290 error Error: EACCES, mkdir '/Users/yjian004/.npm/body-parser/1.9.2'
+290 error  { [Error: EACCES, mkdir '/Users/yjian004/.npm/body-parser/1.9.2']
+290 error   errno: 3,
+290 error   code: 'EACCES',
+290 error   path: '/Users/yjian004/.npm/body-parser/1.9.2',
+290 error   parent: 'undecided' }
+291 error Please try running this command again as root/Administrator.
+292 error System Darwin 14.0.0
+293 error command "node" "/usr/local/bin/npm" "install"
+294 error cwd /Users/yjian004/source/js/undecided
+295 error node -v v0.10.32
+296 error npm -v 1.4.28
+297 error path /Users/yjian004/.npm/body-parser/1.9.2
+298 error code EACCES
+299 error errno 3
+300 error stack Error: EACCES, mkdir '/Users/yjian004/.npm/body-parser/1.9.2'
+301 verbose exit [ 3, true ]
