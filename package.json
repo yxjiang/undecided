@@ -5,6 +5,7 @@
     "express-session": "latest",
     "mongoose": "latest",
     "passport": "latest",
+    "passport-local": "latest",
     "passport-facebook": "latest",
     "bcrypt-nodejs": "latest",
     "cookie-parser": "latest",
