@@ -10,6 +10,7 @@
     "bcrypt-nodejs": "latest",
     "cookie-parser": "latest",
     "body-parser": "latest",
-    "morgan": "latest"
+    "morgan": "latest",
+    "method-override" : "latest" 
   }
 }
