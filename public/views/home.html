@@ -1,5 +1,17 @@
-<div class="jumbotron text-center">
-	<h1>Home Page 4 Life</h1>
+<div class="jumbotron text-center col-sm-6 col-sm-offset-3">
+	<h2>Please login first</h2>
 
-	<p>{{ tagline }}</p>
+  <form action="/login" method="post">
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" class="form-control" name="username">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="text" class="form-control" name="password"/>
+    </div>
+    <button type="submit" class="btn btn-lg">Login</button>
+  </form>
+  <hr>
+  <p><a href='/signup'>Signup?</a>&nbsp; Or login with <a href='/auth/facebook' class='btn btn-primary'><span class='fa fa-facebok'></span>Facebook</a></p>
 </div>

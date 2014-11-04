@@ -2,6 +2,7 @@
   "name": "undecided",
   "dependencies": {
     "bootstrap": "latest",
-    "angular": "latest"
+    "angular": "latest",
+    "font-awsome": "latest"
   }
 }

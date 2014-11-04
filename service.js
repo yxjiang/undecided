@@ -28,7 +28,7 @@ app.use(express.static(__dirname + '/public'));
 // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(methodOverride('X-HTTP-Method-Override')); 
 
-require('./app/route.js')(app, passport);
+require('./app/routes.js')(app, passport);
 // require('./app/route')(app);
 
 app.listen(port);
